@@ -1,0 +1,33 @@
+****************README*******************
+
+This code is written using Python 3.8.0.
+
+Libraries and packages that needs to be installed:
+1) numpy 
+2) matplotlib
+3) pandas
+4) nltk
+
+To install "nltk", go to your intrepreter (I have used Jupyter itself), and type the following script
+>>> import nltk
+>>> nltk.download()
+
+
+Steps for executing the program:
+
+*****working with the dummy_centroid_maker.py****
+
+1) Open the file "dummy_centroid_maker.py"
+2) On line 53 and 55 change the directory path as needed
+3) Run the file.
+4) After successful execution, this should create a new file "dummycentroids.txt" where it stores a list of dummy centroids that will help for the k means algorithm to work.
+
+
+
+****working with the kmeans.py****
+
+4) Open the file "kmeans.py".
+5) On the line 148, 150, 152, 154 change the directory as needed. I have commented inside the program to understand where to change what.
+6) Run the file.
+7) After successful execution, this should create a file "k_means_results" 
+8) This file contains the calculation of SSE and cluster formation.
